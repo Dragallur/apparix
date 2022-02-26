@@ -29,6 +29,9 @@
 #  apparix. Never mind!
 #
 #    An overview of apparix functionality.
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Back() function added by Dragallur
 
 function ahoy() {
     cat <<EOH
@@ -123,7 +126,7 @@ mkdir -p "$APPARIXHOME"
 APPARIXRC="${APPARIXRC:=$APPARIXHOME/.apparixrc}"
 APPARIXEXPAND="${APPARIXEXPAND:=$APPARIXHOME/.apparixexpand}"
 APPARIXLOG="${APPARIXLOG:=$APPARIXHOME/.apparixlog}"
-APPARIXBACK="${APPARIXBACK:=$APPARIXHOME/.apparixback}" # Klimes
+APPARIXBACK="${APPARIXBACK:=$APPARIXHOME/.apparixback}" # Dragallur
 
 # ensure set up and log files exist
 touch "$APPARIXRC"
